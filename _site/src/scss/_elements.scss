@@ -1,0 +1,42 @@
+// Миксины
+@import "_mixins.scss";
+
+.container {
+    width: 100%;
+    max-width: 1500px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
+.link {
+    color: inherit;
+    border-bottom: 1px dashed $bg_2_cl;
+    text-decoration: none;
+
+    &:hover {
+        color: $bg_2_cl;
+        border-bottom: none;
+    }
+}
+
+.nobr {
+    white-space: nowrap;
+}
+
+.accent {
+    
+}
+
+@include laptop {
+
+    .container {
+        padding: 0 47px;
+    }
+}
+
+@include laptop {
+
+    .container {
+        padding: 0 21px;
+    }
+}

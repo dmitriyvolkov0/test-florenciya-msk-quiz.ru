@@ -1,0 +1,47 @@
+# Файлы и папки, которые следует игнорировать
+
+# Папка с виртуальным окружением
+venv/
+env/
+
+# Файлы базы данных
+db.sqlite3
+*.db
+
+# Файлы логов
+*.log
+
+# Файлы конфигурации IDE
+.vscode/
+.idea/
+*.iml
+
+# Файлы node_modules (если используется npm или yarn)
+node_modules/
+
+# Файлы билда и компиляции
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Файлы статических ресурсов (если они генерируются автоматически)
+staticfiles/
+
+# Другие файлы, которые не следует коммитить
+*.env
+*.secret
+*.key
+*.pem
+*.crt
+*.csr
+*.conf
+*.ini
+*.cfg
+*.config
+*.settings
+*.credentials
+*.auth
+*.token
+*.password
+*.secret_key

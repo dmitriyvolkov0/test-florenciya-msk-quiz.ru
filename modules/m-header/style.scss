@@ -1,0 +1,75 @@
+.header {
+    padding-top: 48px;
+}
+
+.header__row {
+    display: flex;
+    column-gap: 204px;
+    align-items: center;
+    column-gap: 144px;
+}
+
+.header__address {
+    line-height: 22px;
+}
+
+.header__data {
+    text-align: right;
+    margin-left: auto;
+}
+
+.header__address-link_city {
+    font-weight: 600;
+}
+
+.header__phone {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: $text_cl;
+    text-decoration: none;
+}
+
+.header__worktime {
+    display: block;
+    margin-top: 9px;
+}
+
+@include laptop {
+    
+    .header {
+        padding-top: 25px;
+    }
+
+    .header__row {
+        column-gap: 48px;
+    }
+
+    .header__logo {
+        width: 180px;
+    }
+}
+
+@include tablet {
+    
+    .header {
+        padding-top: 26px;
+    }
+
+    .header__logo {
+        width: 150px;
+    }
+
+    .header__phone {
+        font-size: 22px;
+    }
+
+    .header__worktime {
+        font-size: 14px;
+    }
+} 
+
+@include mobile {
+
+
+}
